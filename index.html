@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Arcade</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Welcome to Simon Arcade</h1>
+  <p id="instructions">Press "O" to start the game and "X" to quit the game</p>
+  <div class="controls">
+    <button id="play-btn" class="control-btn">Play</button>
+    <button id="quit-btn" class="control-btn">Quit</button>
+  </div>
+  <div class="container">
+    <div class="btn green" id="green" data-key="a">A</div>
+    <div class="btn red" id="red" data-key="b">B</div>
+    <div class="btn yellow" id="yellow" data-key="c">C</div>
+    <div class="btn blue" id="blue" data-key="d">D</div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
